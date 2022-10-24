@@ -8,7 +8,6 @@ install:
 script:
   - echo "test"
 
-before_deploy: "echo 'ready?'"
 deploy:
   provider: elasticbeanstalk
   access_key_id: $ACCESSKEYID
@@ -19,4 +18,3 @@ deploy:
   bucket_name: "elasticbeanstalk-us-west-2-651033129971"
   on:
     branch: master
-after_deploy: "echo 'deployed?'"
