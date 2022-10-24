@@ -16,7 +16,7 @@ install:
 
 # command to run tests
 script:
-  - black -- check ./
+  - black --check ./
   - flake8 ./
   - coverage run mysite/manage.py test
 
