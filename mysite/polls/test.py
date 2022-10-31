@@ -3,11 +3,6 @@ import os
 from django.test import TestCase
 from django.utils import timezone
 from django.urls import reverse
-print(os.getcwd())
-os.chdir("/home/travis/build/Fayed-Gaya/swe1-app/mysite/polls")
-print(os.getcwd())
-print(os.listdir())
-
 from .models import Question
 
 
