@@ -18,9 +18,8 @@ install:
 script:
   - black ./
   - flake8 ./
-  - ls mysite/
-  - coverage run mysite/mysite/polls/test.py
-  - pwd
+  - ls mysite/polls/
+  - coverage run mysite/polls/test.py
 
 after_success:
  coveralls
