@@ -5,7 +5,7 @@ from django.utils import timezone
 from django.urls import reverse
 # from __models__ import Question
 
-print(os.listdir)
+print(os.listdir())
 
 class QuestionModelTests(TestCase):
 
