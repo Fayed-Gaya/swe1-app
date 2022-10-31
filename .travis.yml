@@ -19,6 +19,8 @@ script:
   - black ./
   - flake8 ./
   - ls mysite/
+  - coverage run mysite/polls/tests/test_polls.py
+  - pwd
 
 after_success:
  coveralls
