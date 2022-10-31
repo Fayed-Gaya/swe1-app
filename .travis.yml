@@ -18,7 +18,7 @@ install:
 script:
   - black ./
   - flake8 ./
-  - coverage run mysite/polls/tests/test_polls.py
+  - ls -l -a
 
 after_success:
  coveralls
