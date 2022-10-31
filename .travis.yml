@@ -28,8 +28,8 @@ deploy:
   access_key_id: $ACCESSKEYID
   secret_access_key: $SECRETACCESSKEY
   region: "us-west-2"  
-  app: "django-tutorial"
-  env: "django-env"
+  app: "swe1-app"
+  env: "sew1-app-env"
   bucket_name: "elasticbeanstalk-us-west-2-651033129971"
   on:
     branch: master
