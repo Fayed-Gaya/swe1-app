@@ -19,7 +19,7 @@ script:
   - black ./
   - flake8 ./
   - ls mysite/polls/
-  - coverage run --source=post manage.py test
+  - coverage run --source=polls manage.py test
 
 after_success:
  coveralls
