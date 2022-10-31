@@ -3,10 +3,12 @@ import os
 from django.test import TestCase
 from django.utils import timezone
 from django.urls import reverse
-
+print(os.getcwd())
+os.chdir("/mysite/polls")
+print(os.getcwd())
 print(os.listdir())
 
-from mysite.polls.models import Question
+from .models import Question
 
 
 
