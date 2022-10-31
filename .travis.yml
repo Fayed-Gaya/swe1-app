@@ -19,7 +19,7 @@ script:
   - black ./
   - flake8 ./
   - ls mysite/
-  - coverage run mysite/mysite/polls/tests/test_polls.py
+  - coverage run mysite/mysite/polls/test.py
   - pwd
 
 after_success:
