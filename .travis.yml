@@ -18,7 +18,6 @@ install:
 script:
   - black ./
   - flake8 ./
-  - ls mysite/polls/
   - coverage run --source=polls manage.py test
 
 after_success:
